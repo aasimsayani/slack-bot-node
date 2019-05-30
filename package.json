@@ -1,0 +1,30 @@
+{
+  "name": "slash-command-blueprint",
+  "private": true,
+  "version": "1.5.0",
+  "description": "Sample Slack app that responds to an Slack slash command with an interactive message",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=slash-command-template node src/index.js"
+  },
+  "authors": [
+    "Aasim Sayani",
+  ],
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.7"
+  },
+  "dependencies": {
+    "@slack/client": "^4.12.0",
+    "@slack/interactive-messages": "^1.1.1",
+    "axios": "^0.16.0",
+    "body-parser": "^1.17.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "moment": "^2.24.0",
+    "tsscmp": "^1.0.6"
+  }
+}
+
+
