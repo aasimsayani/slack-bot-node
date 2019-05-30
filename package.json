@@ -2,7 +2,7 @@
   "name": "slash-command-blueprint",
   "private": true,
   "version": "1.5.0",
-  "description": "Sample Slack app that responds to an Slack slash command with an interactive message",
+  "description": "QA bot focused on receiving new QA tickets",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "DEBUG=slash-command-template node src/index.js"
